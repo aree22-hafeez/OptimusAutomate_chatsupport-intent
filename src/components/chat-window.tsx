@@ -112,7 +112,7 @@ export function ChatWindow({ threadId }: { threadId: string }) {
 
           {messages.map((m) => (
             <Message key={m.id} from={m.role}>
-              <MessageContent variant={m.role === "user" ? "contained" : "flat"}>
+              <MessageContent>
                 {m.parts.map((part, i) => {
                   if (part.type === "text") {
                     return (
@@ -160,7 +160,7 @@ export function ChatWindow({ threadId }: { threadId: string }) {
 
           {status === "submitted" && (
             <Message from="assistant">
-              <MessageContent variant="flat">
+              <MessageContent>
                 <Shimmer>Thinking…</Shimmer>
               </MessageContent>
             </Message>
