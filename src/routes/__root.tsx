@@ -77,11 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Shopbot — Northbound Goods Support" },
+      {
+        name: "description",
+        content:
+          "Chat with Shopbot, the AI customer support assistant for Northbound Goods. Orders, returns, shipping, and product help.",
+      },
+      { name: "author", content: "Northbound Goods" },
+      { property: "og:title", content: "Shopbot — Northbound Goods Support" },
+      {
+        property: "og:description",
+        content:
+          "AI customer support for orders, returns, shipping, and product questions.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
