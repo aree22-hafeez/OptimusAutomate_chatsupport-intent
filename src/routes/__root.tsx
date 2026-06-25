@@ -93,6 +93,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Shopbot — Northbound Goods Support" },
+      { name: "description", content: "A customer support chatbot that understands user intent and manages multi-turn conversations." },
+      { property: "og:description", content: "A customer support chatbot that understands user intent and manages multi-turn conversations." },
+      { name: "twitter:description", content: "A customer support chatbot that understands user intent and manages multi-turn conversations." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ad6761f3-ab75-4251-b257-7057f5f1aba4/id-preview-00fe3a5b--b24ecbfd-2210-4ebd-a26d-c91f1388adfd.lovable.app-1782387237375.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ad6761f3-ab75-4251-b257-7057f5f1aba4/id-preview-00fe3a5b--b24ecbfd-2210-4ebd-a26d-c91f1388adfd.lovable.app-1782387237375.png" },
     ],
     links: [
       {
