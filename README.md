@@ -6,11 +6,17 @@ This project is a Customer Support Chatbot developed as part of an Artificial In
 
 ✨ Features
 ----------------------------------------------------
+
 Interactive customer support chat interface
+
 Intent recognition for user queries
+
 Multi-turn conversations with context tracking
+
 Responsive and modern UI
+
 Real-time chatbot responses
+
 Clean and intuitive user experience
 
 🛠️ Tech Stack
