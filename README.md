@@ -4,18 +4,40 @@
 ----------------------------------------------------
 This project is a Customer Support Chatbot developed as part of an Artificial Intelligence internship task. It demonstrates how conversational AI can understand user queries, recognize user intent, maintain conversation context, and provide relevant responses through a simple chat interface.
 
-🚀 Features
+✨ Features
 ----------------------------------------------------
-
-Customer support chatbot interface
-Intent recognition using NLP or an LLM API
+Interactive customer support chat interface
+Intent recognition for user queries
 Multi-turn conversations with context tracking
-Interactive chat interface
-Handles common customer support queries
+Responsive and modern UI
+Real-time chatbot responses
+Clean and intuitive user experience
+
 🛠️ Tech Stack
 ----------------------------------------------------
-Python
-Streamlit / Web Framework
+**Frontend**
+
+React
+
+TypeScript
+
+TanStack Start
+
+Vite
+
+Tailwind CSS
+
+shadcn/ui
+
+**AI & Chat**
+
 NLP / LLM API
-HTML & CSS
-JavaScript (if applicable)
+
+Context-aware conversation handling
+
+Development Tools
+Bun
+
+ESLint
+
+Prettier
